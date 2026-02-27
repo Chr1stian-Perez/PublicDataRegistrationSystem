@@ -33,7 +33,7 @@ The automated deployment of institutional nodes and the permissioned network is 
 3. [`change_namesorgs.sh`](./test-network/scripts_setup/): Replaces organization names internally across all configuration files.
 4. [`configuration_yaml_files.sh`](./test-network/scripts_setup/): Generates the `.yaml` Docker Compose files for the new organizations (e.g., Contraloría).
 5. [`configuration_ccpgenerates_files.sh`](./test-network/scripts_setup/): Configures the connection profiles (`ccp-generate.sh`) for the application layer.
-> **Detailed instructions:** See [`Phase 2 - how_use_scripts.md`](./Guides/Phase 2 - how_use_scripts.md)
+> **Detailed instructions:** See [`Phase_1-setup_fabric.md`](./Guides/Phase_1-setup_fabric.md)
 
 ### Phase 2: Network Bootstrapping & Identity Management (IAM)
 Once the files are provisioned, the network must be started and the ABAC users created:
@@ -70,7 +70,7 @@ fabric-ca-client enroll \
   -M ${PWD}/organizations/peerOrganizations/orgregistrocivil.example.com/users/oficinista_rc@orgregistrocivil.example.com/msp \
   --tls.certfiles ${PWD}/organizations/fabric-ca/orgregistrocivil/tls-cert.pem
 ```
-> **Detailed instructions:** See the first half of [`Phase 3 - Run_test-network.md`](./Guides/Phase 3 - Run_test-network.md)
+> **Detailed instructions:** See the first half of [`Phase_2-how_use_scripts.md`](./Guides/Phase_2-how_use_scripts.md)
 
 ### Phase 3: Smart Contract (Chaincode) Deployment
 To deploy the business logic across the consortium, you must package, install, and approve the chaincode for all 3 organizations:
@@ -90,7 +90,7 @@ peer lifecycle chaincode package dtic.tar.gz --path ../dtic_chaincode --lang gol
 ```
 **2. Install, Approve, and Commit (Multi-Org):**
 Because this is a multi-institutional network, you must export the specific environment variables (`CORE_PEER_LOCALMSPID`, `CORE_PEER_TLS_ROOTCERT_FILE`, etc.) for **each** organization (Registro Civil, CNE, Contraloría) before running the install and approve commands.
-**CRITICAL STEP:** Due to the length of the environment variable exports required for the consensus mechanism, please copy and run the exact commands detailed in the **"Install chaincode"** section of the [`Phase 3 - Run_test-network.md`](./Guides/Phase 3 - Run_test-network.md) guide.
+**CRITICAL STEP:** Due to the length of the environment variable exports required for the consensus mechanism, please copy and run the exact commands detailed in the **"Install chaincode"** section of the [`Phase_3-Run_test-network.md`](./Guides/Phase_3-Run_test-network.md) guide.
 
 **3. Test the Network (Invoke Transaction):**
 Once the chaincode is committed, test the creation of a citizen identity by executing an invoke command:
@@ -115,7 +115,7 @@ docker run -d   --name ipfs_node   -p 4001:4001   -p 5001:5001   -p 8080:8080   
       ipfs config --json Ipns.DelegatedPublishers "[]"; \
       ipfs daemon'
 ```
->  **Detailed instructions:** See the IPFS section in [`Phase 3 - Run_test-network.md`](./Guides/Phase 3 - Run_test-network.md)
+>  **Detailed instructions:** See the IPFS section in [`Phase_3-Run_test-network.md`](./Guides/Phase_3-Run_test-network.md)
 
 ### Phase 4: Performance Benchmarking (Hyperledger Caliper)
 To measure the transaction throughput and latency under stress:
@@ -125,7 +125,7 @@ To measure the transaction throughput and latency under stress:
 3. Define the stress scenarios in `benchconfig.yaml` (from 10 TPS up to 200 TPS).
 4. Run [`generate_network.sh`](./caliper_metrics/) to dynamically fetch the `oficinista_rc` ABAC private keys and certificates and inject them into Caliper's `network.yaml`.
 5. Execute the Caliper benchmark to generate the performance reports.
-> **Detailed instructions:** See [`Phase 4 - metrics.md`](./Guides/Phase 4 - metrics.md)
+> **Detailed instructions:** See [`Phase_4-metrics.md`](./Guides/Phase_4-metrics.md)
 
 ---
 
