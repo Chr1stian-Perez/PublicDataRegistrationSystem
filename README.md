@@ -28,7 +28,7 @@ The setup and testing of the prototype are divided into 4 sequential phases. For
 ### Phase 1: Fabric Infrastructure Provisioning
 The automated deployment of institutional nodes and the permissioned network is performed through a series of bash scripts. Run them in this exact order:
 
-1. [`setup_fabric.sh`](./test-network/scripts_setup/): Installs Fabric binaries, Docker images, and dependencies.
+1. [`setup-fabric.sh`](./test-network/scripts_setup/): Installs Fabric binaries, Docker images, and dependencies.
 2. [`rename_directories.sh`](./test-network/scripts_setup/): Customizes the default Fabric directories to our specific institutions (Registro Civil, CNE, Contraloría).
 3. [`change_namesorgs.sh`](./test-network/scripts_setup/): Replaces organization names internally across all configuration files.
 4. [`configuration_yaml_files.sh`](./test-network/scripts_setup/): Generates the `.yaml` Docker Compose files for the new organizations (e.g., Contraloría).
