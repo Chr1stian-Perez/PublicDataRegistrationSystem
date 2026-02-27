@@ -96,7 +96,7 @@ find . -type f \( -name "*.yaml" -o -name "*.sh" -o -name "*.json" \) | while re
     if grep -qiE "orgregistrocivil|orgcne|orgcontraloria" "$FILE"; then
         echo "Modifying: $FILE"
 
-        # Aplicamos los cambios directamente (-i) manteniendo la capitalización
+       
         sed -i 's/Orgregistrocivil/Orgregistrocivil/g; s/orgregistrocivil/orgregistrocivil/g' "$FILE"
         sed -i 's/Orgcne/Orgcne/g; s/orgcne/orgcne/g' "$FILE"
         sed -i 's/Orgcontraloria/Orgcontraloria/g; s/orgcontraloria/orgcontraloria/g' "$FILE"
@@ -284,7 +284,7 @@ echo "Updating ORG assignments in ccp-generate.sh"
 echo "=========================================================="
 
 # 1. addorgcontraloria file (Change ORG=3 to ORG=contraloria)
-# Esta ruta corresponde a la infraestructura de la Contraloría que estás diseñando.
+
 FILE1="/home/jjperugachi/fabric-samples/test-network/addorgcontraloria/ccp-generate.sh"
 if [ -f "$FILE1" ]; then
     sed -i 's/ORG=3/ORG=contraloria/g' "$FILE1"
@@ -294,7 +294,7 @@ else
 fi
 
 # 2. organizations file (Change ORG=1 to registrocivil and ORG=2 to cne)
-# Estos cambios reflejan las entidades del sistema de registros públicos.
+
 FILE2="/home/jjperugachi/fabric-samples/test-network/organizations/ccp-generate.sh"
 if [ -f "$FILE2" ]; then
     sed -i 's/ORG=1/ORG=registrocivil/g' "$FILE2"
@@ -308,3 +308,4 @@ echo "=========================================================="
 echo "Changes successfully implemented!"
 echo "=========================================================="
 ```
+
