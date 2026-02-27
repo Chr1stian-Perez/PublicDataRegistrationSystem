@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Buscando certificados dinámicos del Oficinista (ABAC) del Registro Civil..."
+echo "Looking for dynamic certificates from the Civil Registry clerk..."
 
 
 BASE_DIR="../test-network/organizations/peerOrganizations/orgregistrocivil.example.com/users/oficinista_rc@orgregistrocivil.example.com/msp"
@@ -10,7 +10,7 @@ PRIV_KEY=$(find $BASE_DIR/keystore -name "*_sk" -print -quit)
 CERT=$(find $BASE_DIR/signcerts -name "*.pem" -print -quit)
 
 if [ -z "$PRIV_KEY" ]; then
-    echo " ERROR: No se encontró la clave privada del oficinista. ¿Hiciste el enroll?"
+    echo " ERROR: The office worker's private key was not found. Did you enroll?"
     exit 1
 fi
 
@@ -37,4 +37,4 @@ organizations:
       discover: true
 EOF
 
-echo " ¡Archivo network.yaml generado con identidad ABAC!"
+echo " "Network.yaml file generated!"
