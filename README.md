@@ -32,7 +32,17 @@ The automated deployment of institutional nodes and the permissioned network is 
 3. **Node configuration:** Run the `configuration_yaml_files.sh` script to adjust the `.yaml` files corresponding to the organization being added to the network.
 4. **Connection profiles:** Finally, run `configuration_ccpgenerates_files.sh` to configure the `ccp-generate.sh` files, which enable the application layer to interact and connect with the blockchain network.
 
-### 2- 
+### 2- How to use the scripts
+To correctly implement and configure the multi-institutional environment, you must run the scripts in the exact order detailed in the `how_use_scripts.md` guide:
+
+* **Step 1:** Run the **setup_fabric.sh** script to install the Fabric network.
+* **Step 2:** When the installation is complete, navigate **to the “fabric-samples” folder** in the WSL CLI and run the “rename_directories.sh” script to change the directory names.
+* **Step 3:** Without leaving **the “fabric-samples” folder**, run the “change_namesorgs.sh” script to change the names of the organizations internally in the files.
+* **Step 4:** Run the `configuration_yaml_files.sh` script to configure the `.yaml` files for the specific organization to be added to the network.
+* **Step 5:** Finally, run the `configuration_ccpgenerates_files.sh` script to configure the `ccp-generate.sh` files.
+
+> **Important:** For more specific details about parameters or troubleshooting during this execution flow, refer to the full document [`how_use_scripts.md`](how_use_scripts.md).
+
 
 ## Authors and research
 This project is the result of research carried out at the **Department of Computer Science of the National Polytechnic School** (Quito, Ecuador):
