@@ -43,7 +43,7 @@ Once the files are provisioned, the network must be started and the ABAC users c
 cd test-network
 ./network.sh up createChannel -ca -c mychannel -s couchdb
 ```
-2. **Add Org3:** Execute the script to dynamically add the `Contraloría` organization to the channel. Note: [`addOrgcontraloria.sh`](./test-network/addorgcontraloria/addOrgcontraloria.sh)
+2. **Add Org3:** Execute the script to dynamically add the `Contraloría` organization to the channel. Note: [`addOrgcontraloria.sh`](test-network/addorgcontraloria/addOrgcontraloria.sh)
 ```
 cd addorgcontraloria
 ./addOrgcontraloria.sh up -c mychannel -ca -s couchdb
