@@ -1,5 +1,5 @@
 
-### Scrip to setup fabric
+### Script to setup fabric
 ```
 #!/bin/bash
 
@@ -308,4 +308,5 @@ echo "=========================================================="
 echo "Changes successfully implemented!"
 echo "=========================================================="
 ```
+
 
