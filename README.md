@@ -1,9 +1,9 @@
 # A Permissioned Blockchain Architecture for Ecuador’s National Public Data Registration System
-> **Prototype of decentralized public records infrastructure for the Ecuadorian context**.
+> **Prototype of decentralized public registries infrastructure for the Ecuadorian context**.
 
 ## Project description
 This project proposes an architectural model to resolve the current fragmentation and lack of interoperability of Ecuador's National Public Data Registration System. To avoid the risks of a centralized model while preserving institutional autonomy, the system implements a permissioned blockchain network that distributes trust among public entities. 
-The functional prototype records citizens' transactions using smart contracts and securely stores supporting documents off-chain.
+The functional prototype registries citizens' transactions using smart contracts and securely stores supporting documents off-chain.
 
 ## Technologies and architecture
 The prototype was designed to simulate a multi-institutional scenario and is divided into the following main technologies:
