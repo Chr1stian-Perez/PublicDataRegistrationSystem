@@ -8,11 +8,11 @@ class RegistroWorkload extends WorkloadModuleBase {
     }
 
     async submitTransaction() {
-        const cedulaAleatoria = Math.floor(Math.random() * 10000000000).toString();
+        const randomCI = Math.floor(Math.random() * 10000000000).toString();
         
-        // LOS 9 ARGUMENTOS EXACTOS DEL NUEVO SMART CONTRACT
+        
         const txArgs = [
-            cedulaAleatoria,            // nationalID
+            randomCI,            // nationalID
             "Juan",                     // firstNames
             "Perez",                    // lastNames
             "1990-01-01",               // birthDate
