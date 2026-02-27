@@ -1,28 +1,28 @@
 test:
-  name: "Prueba de Saturación Tesis - ABAC"
-  description: "Midiendo el impacto de ABAC hasta 200 TPS"
+  name: "Network saturation test"
+  description: "Measuring the impact up to 200 TPS"
   workers:
-    number: 1 # <--- Crucial para estabilidad
+    number: 1 
   rounds:
-    - label: "Ronda 1 - 10 TPS"
+    - label: "Round 1 - 10 TPS"
       txDuration: 30
       rateControl: { type: fixed-rate, opts: { tps: 10 } }
       workload: { module: workload.js }
-    - label: "Ronda 2 - 50 TPS"
+    - label: "Round 2 - 50 TPS"
       txDuration: 30
       rateControl: { type: fixed-rate, opts: { tps: 50 } }
       workload: { module: workload.js }
-    - label: "Ronda 3 - 100 TPS"
+    - label: "Round 3 - 100 TPS"
       txDuration: 30
       rateControl: { type: fixed-rate, opts: { tps: 100 } }
       workload: { module: workload.js }
-    - label: "Ronda 4 - Estrés 150 TPS"
+    - label: "Round 4 - Estrés 150 TPS"
       txDuration: 30
-      startDelay: 15 # <--- Tiempo para que el Peer respire
+      startDelay: 15
       rateControl: { type: fixed-rate, opts: { tps: 150 } }
       workload: { module: workload.js }
-    - label: "Ronda 5 - Saturación 200 TPS"
+    - label: "Round 5 - Saturación 200 TPS"
       txDuration: 30
-      startDelay: 20 # <--- Más tiempo de recuperación
+      startDelay: 20 
       rateControl: { type: fixed-rate, opts: { tps: 200 } }
       workload: { module: workload.js }
