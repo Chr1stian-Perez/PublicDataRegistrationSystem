@@ -28,11 +28,11 @@ The setup and testing of the prototype are divided into 4 sequential phases. For
 ### Phase 1: Fabric Infrastructure Provisioning
 The automated deployment of institutional nodes and the permissioned network is performed through a series of bash scripts. Run them in this exact order:
 
-1. [`setup_fabric.sh`](./test-network/scripts_setup/setup_fabric.sh): Installs Fabric binaries, Docker images, and dependencies.
-2. [`rename_directories.sh`](./test-network/scripts_setup/rename_directories.sh): Customizes the default Fabric directories to our specific institutions (Registro Civil, CNE, Contraloría).
-3. [`change_namesorgs.sh`](./test-network/scripts_setup/change_namesorgs.sh): Replaces organization names internally across all configuration files.
-4. [`configuration_yaml_files.sh`](./test-network/scripts_setup/configuration_yaml_files.sh): Generates the `.yaml` Docker Compose files for the new organizations (e.g., Contraloría).
-5. [`configuration_ccpgenerates_files.sh`](./test-network/scripts_setup/configuration_ccpgenerates_files.sh): Configures the connection profiles (`ccp-generate.sh`) for the application layer.
+1. [`setup_fabric.sh`](./test-network/scripts_setup/): Installs Fabric binaries, Docker images, and dependencies.
+2. [`rename_directories.sh`](./test-network/scripts_setup/): Customizes the default Fabric directories to our specific institutions (Registro Civil, CNE, Contraloría).
+3. [`change_namesorgs.sh`](./test-network/scripts_setup/): Replaces organization names internally across all configuration files.
+4. [`configuration_yaml_files.sh`](./test-network/scripts_setup/): Generates the `.yaml` Docker Compose files for the new organizations (e.g., Contraloría).
+5. [`configuration_ccpgenerates_files.sh`](./test-network/scripts_setup/): Configures the connection profiles (`ccp-generate.sh`) for the application layer.
 > **Detailed instructions:** See [`Phase 2 - how_use_scripts.md`](./Guides/Phase 2 - how_use_scripts.md)
 
 ### Phase 2: Network Bootstrapping & Identity Management (IAM)
@@ -123,7 +123,7 @@ To measure the transaction throughput and latency under stress:
 1. Set up the `caliper_metrics` directory.
 2. Configure `workload.js` to simulate random citizen identity registrations matching the exact arguments of the Smart Contract.
 3. Define the stress scenarios in `benchconfig.yaml` (from 10 TPS up to 200 TPS).
-4. Run [`generate_network.sh`](./caliper_metrics/generate_network.sh) to dynamically fetch the `oficinista_rc` ABAC private keys and certificates and inject them into Caliper's `network.yaml`.
+4. Run [`generate_network.sh`](./caliper_metrics/) to dynamically fetch the `oficinista_rc` ABAC private keys and certificates and inject them into Caliper's `network.yaml`.
 5. Execute the Caliper benchmark to generate the performance reports.
 > **Detailed instructions:** See [`Phase 4 - metrics.md`](./Guides/Phase 4 - metrics.md)
 
