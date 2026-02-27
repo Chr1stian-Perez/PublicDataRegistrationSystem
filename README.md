@@ -21,7 +21,7 @@ Steps to set up the **Hyperledger Fabric** infrastructure.
 
 > **Important:** If you want to see the detailed content of the installation scripts, please refer to our complete guide in the [`setup_fabric.md`](setup_fabric.md) file.
 
-### Fabric network configuration
+### 1- Fabric network configuration
 
 The automated deployment of institutional nodes and the permissioned network is performed through a series of bash scripts included in this repository:
 
@@ -31,6 +31,8 @@ The automated deployment of institutional nodes and the permissioned network is 
    * Run `change_namesorgs.sh` to replace the names of the organizations internally in the files.
 3. **Node configuration:** Run the `configuration_yaml_files.sh` script to adjust the `.yaml` files corresponding to the organization being added to the network.
 4. **Connection profiles:** Finally, run `configuration_ccpgenerates_files.sh` to configure the `ccp-generate.sh` files, which enable the application layer to interact and connect with the blockchain network.
+
+### 2- 
 
 ## Authors and research
 This project is the result of research carried out at the **Department of Computer Science of the National Polytechnic School** (Quito, Ecuador):
