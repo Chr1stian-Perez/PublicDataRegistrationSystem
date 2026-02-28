@@ -41,17 +41,17 @@ class RegistroWorkload extends WorkloadModuleBase {
             "Juan",                     // firstNames
             "Perez",                    // lastNames
             "1990-01-01",               // birthDate
-            "QUITO",                    // birthPlace (NUEVO)
-            "MALE",                     // sex (NUEVO - INGLÉS)
-            "MASCULINE",                // gender (NUEVO - INGLÉS)
+            "QUITO",                    // birthPlace 
+            "MALE",                     // sex 
+            "MASCULINE",                // gender 
             "QmHashCertificado",        // initialCivilRegistryDirCID
             "QmHashRaizIPFS"            // initialRootCID
         ];
 
         const request = {
             contractId: "dtic",
-            contractFunction: "Tx_RegisterIdentity", // NOMBRE EN INGLÉS
-            invokerIdentity: "oficinista_abac",    // COINCIDE CON network.yaml
+            contractFunction: "Tx_RegisterIdentity", 
+            invokerIdentity: "oficinista_abac",    
             contractArguments: txArgs,
             readOnly: false
         };
