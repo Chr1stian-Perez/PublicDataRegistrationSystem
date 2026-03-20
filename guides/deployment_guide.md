@@ -1,10 +1,10 @@
-# Deployment Reference Guide
+# Deployment reference guide
 
 This document expands on the reproduction steps outlined in the main `README.md`, providing command-level detail, expected outputs, and common failure points encountered during development. Each section maps directly to a numbered step in the README.
 
 ---
 
-## Step 1 — Repository Layout and Fabric Binaries
+## Step 1 — Repository layout and Fabric binaries
 
 Hyperledger Fabric resolves many paths relative to `$HOME/fabric-samples`. The simplest approach is to clone this repository into that directory and work from there. Placing the chaincode and application inside `fabric-samples` ensures that `go mod tidy` and the peer lifecycle commands can locate all dependencies without additional `GOPATH` configuration.
 
@@ -18,7 +18,7 @@ Confirm that `peer version` returns `2.5.x` before proceeding. Mismatched binari
 
 ---
 
-## Step 2 — Line Ending Normalization
+## Step 2 — Line ending normalization
 
 Scripts transferred from Windows to Linux carry `\r\n` line endings that `bash` interprets as part of variable names, producing errors like `$'\r': command not found`. Running `dos2unix` recursively on the `test-network/` tree eliminates this before any script is executed:
 
@@ -28,7 +28,7 @@ find $HOME/fabric-samples/test-network -name "*.sh" -exec dos2unix {} \;
 
 ---
 
-## Step 3 — Base Network Bootstrap
+## Step 3 — Base network bootstrap
 
 The `network.sh up` command starts the ordering service, the Certificate Authorities for Civil Registry and Police Registry, and their respective peers with CouchDB state databases. The `-ca` flag is mandatory — without it, the CA containers do not start and identity enrollment in Step 6 will fail.
 
@@ -41,11 +41,11 @@ cd $HOME/fabric-samples/test-network
 
 ---
 
-## Step 4 & 5 — Dynamic Organization Addition
+## Step 4 & 5 — Dynamic organization addition
 
 Each addorg script internally calls `configtxlator` to decode the current channel configuration, appends the new organization's MSP definition, re-encodes it, and submits the update transaction signed by the existing majority. The operation is non-disruptive — active peers continue serving requests while the update propagates.
 
-**Property Registry (Org3):**
+**Property registry (Org3):**
 ```bash
 cp -r $REPO/test-network/addorgregistropropiedad $HOME/fabric-samples/test-network/
 cp -r $REPO/test-network/orgregistropropiedad-scripts $HOME/fabric-samples/test-network/scripts/
@@ -54,7 +54,7 @@ cd $HOME/fabric-samples/test-network/addorgregistropropiedad
 ./addorgregistropropiedad.sh up -ca -s couchdb
 ```
 
-**Academic Registry (Org4):**
+**Academic registry (Org4):**
 ```bash
 cp -r $REPO/test-network/addorgregistroacademico $HOME/fabric-samples/test-network/
 cp -r $REPO/test-network/orgregistroacademico-scripts $HOME/fabric-samples/test-network/scripts/
@@ -69,7 +69,7 @@ cd $HOME/fabric-samples/test-network/addorgregistroacademico
 
 ---
 
-## Step 6 — ABAC Identity Generation
+## Step 6 — RBAC identity generation
 
 The `gen_identities.sh` script iterates over all four organizations and calls `fabric-ca-client register` followed by `fabric-ca-client enroll` for each of the four ABAC roles. The resulting MSP directories are created directly under each organization's `users/` path, making them immediately available to the Go application.
 
@@ -83,7 +83,7 @@ chmod +x gen_identities.sh
 
 ---
 
-## Step 7 — Chaincode Deployment
+## Step 7 — Chaincode deployment
 
 The `deployCC` wrapper packages the chaincode as a `.tar.gz`, installs it on all four peers, collects approvals, verifies commit readiness, and commits the definition. The sequence number (`-ccs`) must be incremented by one for each upgrade:
 
@@ -109,7 +109,7 @@ The output must show `sequence: 1` and the `MAJORITY` endorsement rule listing a
 
 ---
 
-## Step 8 — IPFS Node
+## Step 8 — IPFS node
 
 The private swarm key located at `test-network/swarm.key` prevents the node from connecting to the global IPFS network, ensuring documents remain within the controlled environment. After the `docker run` command, CORS headers must be configured to allow the Go application to reach the API:
 
@@ -136,7 +136,7 @@ The CLI prompts for an organization (1–4), a user identity, and then presents 
 
 ---
 
-## Network Ports Reference
+## Network ports reference
 
 | Service | Host Port |
 |---|---|
