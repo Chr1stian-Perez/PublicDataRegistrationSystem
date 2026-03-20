@@ -4,7 +4,7 @@ volumes:
   orderer3.example.com:
   orderer4.example.com:
   peer0.orgregistrocivil.example.com:
-  peer0.orgcne.example.com:
+  peer0.orgregistropolicial.example.com:
 
 networks:
   test:
@@ -222,8 +222,8 @@ services:
     networks:
       - test
 
-  peer0.orgcne.example.com:
-    container_name: peer0.orgcne.example.com
+  peer0.orgregistropolicial.example.com:
+    container_name: peer0.orgregistropolicial.example.com
     image: hyperledger/fabric-peer:latest
     labels:
       service: hyperledger-fabric
@@ -237,22 +237,22 @@ services:
       - CORE_PEER_TLS_KEY_FILE=/etc/hyperledger/fabric/tls/server.key
       - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/tls/ca.crt
       # Peer specific variables
-      - CORE_PEER_ID=peer0.orgcne.example.com
-      - CORE_PEER_ADDRESS=peer0.orgcne.example.com:9051
+      - CORE_PEER_ID=peer0.orgregistropolicial.example.com
+      - CORE_PEER_ADDRESS=peer0.orgregistropolicial.example.com:9051
       - CORE_PEER_LISTENADDRESS=0.0.0.0:9051
-      - CORE_PEER_CHAINCODEADDRESS=peer0.orgcne.example.com:9052
+      - CORE_PEER_CHAINCODEADDRESS=peer0.orgregistropolicial.example.com:9052
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:9052
-      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.orgcne.example.com:9051
-      - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.orgcne.example.com:9051
-      - CORE_PEER_LOCALMSPID=OrgcneMSP
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.orgregistropolicial.example.com:9051
+      - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.orgregistropolicial.example.com:9051
+      - CORE_PEER_LOCALMSPID=OrgregistropolicialMSP
       - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/fabric/msp
-      - CORE_OPERATIONS_LISTENADDRESS=peer0.orgcne.example.com:9445
+      - CORE_OPERATIONS_LISTENADDRESS=peer0.orgregistropolicial.example.com:9445
       - CORE_METRICS_PROVIDER=prometheus
-      - CHAINCODE_AS_A_SERVICE_BUILDER_CONFIG={"peername":"peer0orgcne"}
+      - CHAINCODE_AS_A_SERVICE_BUILDER_CONFIG={"peername":"peer0orgregistropolicial"}
       - CORE_CHAINCODE_EXECUTETIMEOUT=300s
     volumes:
-      - ../organizations/peerOrganizations/orgcne.example.com/peers/peer0.orgcne.example.com:/etc/hyperledger/fabric
-      - peer0.orgcne.example.com:/var/hyperledger/production
+      - ../organizations/peerOrganizations/orgregistropolicial.example.com/peers/peer0.orgregistropolicial.example.com:/etc/hyperledger/fabric
+      - peer0.orgregistropolicial.example.com:/var/hyperledger/production
     working_dir: /root
     command: peer node start
     ports:

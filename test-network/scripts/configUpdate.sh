@@ -7,8 +7,8 @@
 
 # import utils
 # test network home var targets to test network folder
-# the reason we use a var here is considering with orgcontraloria specific folder
-# when invoking this for orgcontraloria as test-network/scripts/orgcontraloria-scripts
+# the reason we use a var here is considering with orgregistropropiedad specific folder
+# when invoking this for orgregistropropiedad as test-network/scripts/orgregistropropiedad-scripts
 # the value is changed from default as $PWD(test-network)
 # to .. as relative path to make the import works
 TEST_NETWORK_HOME=${TEST_NETWORK_HOME:-${PWD}}

@@ -1,0 +1,38 @@
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+---
+################################################################################
+#
+#   Section: Organizations
+#
+#   - This section defines the different organizational identities which will
+#   be referenced later in the configuration.
+#
+################################################################################
+Organizations:
+    - &Orgregistroacademico
+        # DefaultOrg defines the organization which is used in the sampleconfig
+        # of the fabric.git development environment
+        Name: OrgregistroacademicoMSP
+
+        # ID to load the MSP definition as
+        ID: OrgregistroacademicoMSP
+
+        MSPDir: ../organizations/peerOrganizations/orgregistroacademico.example.com/msp
+
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('OrgregistroacademicoMSP.admin', 'OrgregistroacademicoMSP.peer', 'OrgregistroacademicoMSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('OrgregistroacademicoMSP.admin', 'OrgregistroacademicoMSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('OrgregistroacademicoMSP.admin')"
+            Endorsement:
+                Type: Signature
+                Rule: "OR('OrgregistroacademicoMSP.peer')"

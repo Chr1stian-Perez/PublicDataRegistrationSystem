@@ -10,7 +10,7 @@
 # imports
 # test network home var targets to test-network folder
 # the reason we use a var here is to accommodate scenarios
-# where execution occurs from folders outside of default as $PWD, such as the test-network/addOrgcontraloria folder.
+# where execution occurs from folders outside of default as $PWD, such as the test-network/addOrgregistropropiedad folder.
 # For setting environment variables, simple relative paths like ".." could lead to unintended references
 # due to how they interact with FABRIC_CFG_PATH. It's advised to specify paths more explicitly,
 # such as using "../${PWD}", to ensure that Fabric's environment variables are pointing to the correct paths.
@@ -20,9 +20,9 @@ TEST_NETWORK_HOME=${TEST_NETWORK_HOME:-${PWD}}
 export CORE_PEER_TLS_ENABLED=true
 export ORDERER_CA=${TEST_NETWORK_HOME}/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
 export PEER0_ORG1_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistrocivil.example.com/tlsca/tlsca.orgregistrocivil.example.com-cert.pem
-export PEER0_ORG2_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgcne.example.com/tlsca/tlsca.orgcne.example.com-cert.pem
-export PEER0_ORG3_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgcontraloria.example.com/tlsca/tlsca.orgcontraloria.example.com-cert.pem
-
+export PEER0_ORG2_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropolicial.example.com/tlsca/tlsca.orgregistropolicial.example.com-cert.pem
+export PEER0_ORG3_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropropiedad.example.com/tlsca/tlsca.orgregistropropiedad.example.com-cert.pem
+export PEER0_ORG4_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistroacademico.example.com/tlsca/tlsca.orgregistroacademico.example.com-cert.pem
 # Set environment variables for the peer org
 setGlobals() {
   local USING_ORG=""
@@ -38,15 +38,20 @@ setGlobals() {
     export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistrocivil.example.com/users/Admin@orgregistrocivil.example.com/msp
     export CORE_PEER_ADDRESS=localhost:7051
   elif [ $USING_ORG -eq 2 ]; then
-    export CORE_PEER_LOCALMSPID=OrgcneMSP
+    export CORE_PEER_LOCALMSPID=OrgregistropolicialMSP
     export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG2_CA
-    export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgcne.example.com/users/Admin@orgcne.example.com/msp
+    export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropolicial.example.com/users/Admin@orgregistropolicial.example.com/msp
     export CORE_PEER_ADDRESS=localhost:9051
   elif [ $USING_ORG -eq 3 ]; then
-    export CORE_PEER_LOCALMSPID=OrgcontraloriaMSP
+    export CORE_PEER_LOCALMSPID=OrgregistropropiedadMSP
     export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG3_CA
-    export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgcontraloria.example.com/users/Admin@orgcontraloria.example.com/msp
+    export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropropiedad.example.com/users/Admin@orgregistropropiedad.example.com/msp
     export CORE_PEER_ADDRESS=localhost:11051
+  elif [ $USING_ORG -eq 4 ]; then
+    export CORE_PEER_LOCALMSPID=OrgregistroacademicoMSP
+    export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG4_CA
+    export CORE_PEER_MSPCONFIGPATH=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistroacademico.example.com/users/Admin@orgregistroacademico.example.com/msp
+    export CORE_PEER_ADDRESS=localhost:12051
   else
     errorln "ORG Unknown"
   fi

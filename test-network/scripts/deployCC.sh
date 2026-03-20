@@ -73,10 +73,10 @@ checkPrereqs
 
 PACKAGE_ID=$(peer lifecycle chaincode calculatepackageid ${CC_NAME}.tar.gz)
 
-## Install chaincode on peer0.orgregistrocivil and peer0.orgcne
+## Install chaincode on peer0.orgregistrocivil and peer0.orgregistropolicial
 infoln "Installing chaincode on peer0.orgregistrocivil..."
 installChaincode 1
-infoln "Install chaincode on peer0.orgcne..."
+infoln "Install chaincode on peer0.orgregistropolicial..."
 installChaincode 2
 
 resolveSequence
@@ -88,17 +88,17 @@ queryInstalled 1
 approveForMyOrg 1
 
 ## check whether the chaincode definition is ready to be committed
-## expect orgregistrocivil to have approved and orgcne not to
-checkCommitReadiness 1 "\"OrgregistrocivilMSP\": true" "\"OrgcneMSP\": false"
-checkCommitReadiness 2 "\"OrgregistrocivilMSP\": true" "\"OrgcneMSP\": false"
+## expect orgregistrocivil to have approved and orgregistropolicial not to
+checkCommitReadiness 1 "\"OrgregistrocivilMSP\": true" "\"OrgregistropolicialMSP\": false"
+checkCommitReadiness 2 "\"OrgregistrocivilMSP\": true" "\"OrgregistropolicialMSP\": false"
 
-## now approve also for orgcne
+## now approve also for orgregistropolicial
 approveForMyOrg 2
 
 ## check whether the chaincode definition is ready to be committed
 ## expect them both to have approved
-checkCommitReadiness 1 "\"OrgregistrocivilMSP\": true" "\"OrgcneMSP\": true"
-checkCommitReadiness 2 "\"OrgregistrocivilMSP\": true" "\"OrgcneMSP\": true"
+checkCommitReadiness 1 "\"OrgregistrocivilMSP\": true" "\"OrgregistropolicialMSP\": true"
+checkCommitReadiness 2 "\"OrgregistrocivilMSP\": true" "\"OrgregistropolicialMSP\": true"
 
 ## now that we know for sure both orgs have approved, commit the definition
 commitChaincodeDefinition 1 2

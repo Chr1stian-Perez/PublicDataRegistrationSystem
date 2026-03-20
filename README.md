@@ -5,148 +5,209 @@
 This project proposes an architectural model designed to resolve the current fragmentation and lack of interoperability within Ecuador's National Public Data Registration System. To avoid the risks of a centralized model while preserving institutional autonomy, the system implements a permissioned blockchain network that distributes trust evenly among public entities. 
 The functional prototype registers citizens' transactions using smart contracts and securely stores supporting documents off-chain.
 
-## Technologies and architecture
-The prototype was designed to simulate a multi-institutional scenario and is divided into the following main technologies:
+The system models four registries: Civil Registry (`orgregistrocivil`), Police Registry (`orgregistropolicial`), Property Registry (`orgregistropropiedad`), and Academic Registry (`orgregistroacademico`). Each institution operates an independent peer node, maintains its own Certificate Authority, and participates in transaction endorsement under a `MAJORITY` policy. Supporting documents are stored off-chain in a private IPFS node, and their cryptographic hashes (CIDs) are anchored to the blockchain to guarantee immutability.
 
-* **Blockchain:** [Hyperledger Fabric v2.5.14] for the permissioned network, utilizing CouchDB databases for the world state, institutional peer nodes (Registro Civil, CNE, Contraloría), and an ordering service cluster.
-* **Decentralized Storage:** [IPFS] to store supporting documents across a distributed cluster, generating cryptographic hashes (CIDs) to ensure immutability.
-* **Application Layer:** Role-based Identity and Access Management (IAM) system using Attribute-Based Access Control (ABAC), alongside integration with Public Key Infrastructure (PKI).
-* **Performance Evaluation:** [Hyperledger Caliper] used to measure latency and throughput under stress scenarios.
+## Technologies
 
-## Prerequisites and Environment
-To reproduce the multi-institutional public registry scenario, the system must be evaluated in a containerized environment.
-* **OS:** Ubuntu (WSL).
-* **Requirements:** Docker, Docker Compose, Git, Curl and Go.
-* **Hardware:** Approximate resources of 8 vCPUs and 8 GB of RAM are recommended for stability during stress testing.
+The prototype integrates three layers. The blockchain layer runs on **Hyperledger Fabric v2.5.14** with **CouchDB v3.1.1** as the world state database, enabling rich JSON queries over citizen records; the ordering service uses the Raft consensus protocol with a single orderer node. The storage layer uses **IPFS Kubo v0.33** to host supporting documents — birth certificates, property deeds, academic diplomas — whose CIDs are registered on-chain alongside the structured data. The application layer is a **Go v1.26** CLI that connects to peers through the **Fabric Gateway SDK v1.7.1**, authenticates users through X.509 certificates issued by **Fabric CA v1.5.12**, and enforces Role-Based Access Control (RBAC) with four roles: `OPERATOR`, `DIRECTOR`, `REGISTRAR`, and `AUDITOR`.
+
+## Repository structure
+
+```
+PublicDataRegistrationSystem/
+├── app/              ← Go client application (main.go, go.mod, go.sum)
+├── chaincode/        ← Smart contract (contract.go, models.go, utils.go)
+├── test-network/     ← Full network infrastructure (see below)
+├── guides/           ← Step-by-step deployment documentation
+├── README.md
+└── LICENSE
+```
+
+The `test-network/` directory contains everything needed to bring up the four-organization network:
+
+```
+test-network/
+├── network.sh                   ← Master Fabric bootstrap script
+├── deploy_scalable.sh           ← Full 4-org orchestration script
+├── gen_identities.sh            ← RBAC identity generator for all orgs
+├── addorgregistropropiedad/     ← Scripts to dynamically add Property Registry
+├── addorgregistroacademico/     ← Scripts to dynamically add Academic Registry
+├── orgregistropropiedad-scripts/← joinChannel + anchor peer config for Org3
+├── orgregistroacademico-scripts/← joinChannel + anchor peer config for Org4
+├── scripts/                     ← Core Fabric lifecycle scripts
+├── compose/                     ← Docker Compose files for all nodes
+├── configtx/                    ← Genesis block and channel policy config
+└── organizations/               ← CA crypto material (generated at runtime)
+```
 
 ---
 
-## Experiment Reproduction Guide
+## Prerequisites
 
-The setup and testing of the prototype are divided into 4 sequential phases. For detailed execution commands, please refer to the specific `.md` guides linked in each phase.
+The environment must run Linux or WSL (Ubuntu 20.04 tested). Go 1.26 is required for both the chaincode and the application. Docker and Docker Compose must be available with enough resources to run eight containers simultaneously — approximately 8 vCPUs and 8 GB of RAM are recommended for stable operation under concurrent load.
 
-### Phase 1: Fabric Infrastructure Provisioning
-The automated deployment of institutional nodes and the permissioned network is performed through a series of bash scripts. Run them in this exact order:
+Hyperledger Fabric binaries (`peer`, `orderer`, `fabric-ca-client`) must be installed under `$HOME/fabric-samples/bin`. The official Fabric bootstrap script handles this:
 
-1. [`setup-fabric.sh`](./test-network/scripts_setup/): Installs Fabric binaries, Docker images, and dependencies.
-2. [`rename_directories.sh`](./test-network/scripts_setup/): Customizes the default Fabric directories to our specific institutions (Registro Civil, CNE, Contraloría).
-3. [`change_namesorgs.sh`](./test-network/scripts_setup/): Replaces organization names internally across all configuration files.
-4. [`configuration_yaml_files.sh`](./test-network/scripts_setup/): Generates the `.yaml` Docker Compose files for the new organizations (e.g., Contraloría).
-5. [`configuration_ccpgenerates_files.sh`](./test-network/scripts_setup/): Configures the connection profiles (`ccp-generate.sh`) for the application layer.
-> **Detailed instructions:** See [`Phase_1-setup_fabric.md`](./Guides/Phase_1-setup_fabric.md)
-
-### Phase 2: Network Bootstrapping & Identity Management (IAM)
-Once the files are provisioned, the network must be started and the ABAC users created:
-
-1. **Start the network:** Bring up the `mychannel` with CouchDB and the base organizations (Registro Civil and CNE).
+```bash
+curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.5.14 1.5.12
 ```
-cd test-network
-./network.sh up createChannel -ca -c mychannel -s couchdb
+
+After installation, add the binaries to your `PATH`:
+
+```bash
+export PATH=$HOME/fabric-samples/bin:$PATH
+export FABRIC_CFG_PATH=$HOME/fabric-samples/config
 ```
-2. **Add Org3:** Execute the script to dynamically add the `Contraloría` organization to the channel. Note: [`addOrgcontraloria.sh`](./test-network/addorgcontraloria/)
+---
+## Reproduction guide
+
+### Step 1 — Clone and prepare the repository
+
+Clone this repository into `$HOME/fabric-samples/` so that the relative paths used by the network scripts resolve correctly:
+
+```bash
+cd $HOME/fabric-samples
+git clone https://github.com/Chr1stian-Perez/PublicDataRegistrationSystem.git
 ```
-cd addorgcontraloria
-./addOrgcontraloria.sh up -c mychannel -ca -s couchdb
+
+Copy the `chaincode/` and `app/` directories alongside the Fabric binaries so Go can resolve the module paths at build time:
+
+```bash
+cp -r PublicDataRegistrationSystem/chaincode $HOME/fabric-samples/dtic_chaincode
+cp -r PublicDataRegistrationSystem/app $HOME/fabric-samples/app
 ```
-3. **Register & Enroll ABAC User:** Use the Fabric CA Client to register a new user (`oficinista_rc`) with specific ABAC roles (`role=OPERATOR:ecert`) and enroll their cryptographic certificates to generate the MSP folder.
+
+### Step 2 — Configure file line endings
+
+Scripts authored on Windows may carry CRLF line endings that cause `bash` to fail silently. Install `dos2unix` and normalize all shell scripts before execution:
+
+```bash
+sudo apt-get install -y dos2unix
+find $HOME/fabric-samples/test-network -name "*.sh" -exec dos2unix {} \;
 ```
-cd ../
-export PATH=${PWD}/../bin:$PATH
-export FABRIC_CA_CLIENT_HOME=${PWD}/organizations/peerOrganizations/orgregistrocivil.example.com/
 
-# Register the user with specific ABAC role
-fabric-ca-client register \
-  --caname ca-orgregistrocivil \
-  --id.name oficinista_rc \
-  --id.secret oficinistaPW \
-  --id.type client \
-  --id.attrs 'role=OPERATOR:ecert' \
-  --tls.certfiles ${PWD}/organizations/fabric-ca/orgregistrocivil/tls-cert.pem
+### Step 3 — Bootstrap the base network (Org1 + Org2)
 
-# Enroll to generate certificates
-fabric-ca-client enroll \
-  -u https://oficinista_rc:oficinistaPW@localhost:7054 \
-  --caname ca-orgregistrocivil \
-  -M ${PWD}/organizations/peerOrganizations/orgregistrocivil.example.com/users/oficinista_rc@orgregistrocivil.example.com/msp \
-  --tls.certfiles ${PWD}/organizations/fabric-ca/orgregistrocivil/tls-cert.pem
+The base network starts Civil Registry and Police Registry, creates `mychannel`, and brings up CouchDB-backed peers with Certificate Authorities enabled:
+
+```bash
+cd $HOME/fabric-samples/test-network
+./network.sh up createChannel -ca -s couchdb
 ```
-> **Detailed instructions:** See the first half of [`Phase_2-how_use_scripts.md`](./Guides/Phase_2-how_use_scripts.md)
 
-### Phase 3: Smart Contract (Chaincode) Deployment
-To deploy the business logic across the consortium, you must package, install, and approve the chaincode for all 3 organizations:
-**1. Package the chaincode:**
-Change the directory to `fabric-samples` and create a folder named [`dtic_chaincode`](./dtic_chaincode). Then, run the following commands:
+Verify all containers are running before proceeding:
+
+```bash
+docker ps --format "table {{.Names}}\t{{.Status}}"
 ```
-go mod init dtic_chaincode
-go mod tidy
-go mod vendor
 
-cd ~/fabric-samples/test-network
-export PATH=${PWD}/../bin:$PATH
-export FABRIC_CFG_PATH=$PWD/../config/
+### Step 4 — Add property registry (Org3)
 
-peer lifecycle chaincode package dtic.tar.gz --path ../dtic_chaincode --lang golang --label dtic_1.0
+The `addorgregistropropiedad` scripts extend the running channel to include a third organization without interrupting operations. Execute from within the `test-network` directory:
 
+```bash
+cp -r PublicDataRegistrationSystem/test-network/addorgregistropropiedad .
+cp -r PublicDataRegistrationSystem/test-network/orgregistropropiedad-scripts scripts/
+dos2unix addorgregistropropiedad/*.sh scripts/orgregistropropiedad-scripts/*.sh
+
+cd addorgregistropropiedad
+./addorgregistropropiedad.sh up -ca -s couchdb
+cd ..
 ```
-**2. Install, Approve, and Commit (Multi-Org):**
-Because this is a multi-institutional network, you must export the specific environment variables (`CORE_PEER_LOCALMSPID`, `CORE_PEER_TLS_ROOTCERT_FILE`, etc.) for **each** organization (Registro Civil, CNE, Contraloría) before running the install and approve commands.
-**CRITICAL STEP:** Due to the length of the environment variable exports required for the consensus mechanism, please copy and run the exact commands detailed in the **"Install chaincode"** section of the [`Phase_3-Run_test-network.md`](./Guides/Phase_3-Run_test-network.md)  and  [`set_up_the_network.md`](./Guides/set_up_the_network.md) guide.
 
-**3. Test the Network (Invoke Transaction):**
-Once the chaincode is committed, test the creation of a citizen identity by executing an invoke command:
+### Step 5 — Add academic registry (Org4)
 
+The same pattern applies for the fourth organization. The `addorgregistroacademico` scripts generate crypto material for the CA, launch the peer container, and submit a channel update transaction that was signed by the existing majority:
+
+```bash
+cp -r PublicDataRegistrationSystem/test-network/addorgregistroacademico .
+cp -r PublicDataRegistrationSystem/test-network/orgregistroacademico-scripts scripts/
+dos2unix addorgregistroacademico/*.sh scripts/orgregistroacademico-scripts/*.sh
+
+cd addorgregistroacademico
+./addorgregistroacademico.sh up -ca -s couchdb
+cd ..
 ```
-peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile $ORDERER_CA -C mychannel -n dtic --peerAddresses localhost:7051 --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/orgregistrocivil.example.com/peers/peer0.orgregistrocivil.example.com/tls/ca.crt --peerAddresses localhost:9051 --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/orgcne.example.com/peers/peer0.orgcne.example.com/tls/ca.crt -c '{"Args":["Tx_RegisterIdentity", "1712345678", "Juan", "Perez", "1990-01-01", "HOMBRE", "MASCULINO", "QmHashDePruebaIPFS"]}'
+
+At this point `docker ps` should show eight peer/CA/CouchDB containers active.
+
+### Step 6 — Generate RBAC identities
+
+The chaincode enforces role-based access through X.509 certificate attributes. The `gen_identities.sh` script registers and enrolls four users per organization — `operator1`, `director1`, `registrar1`, and `auditor1` — each carrying the corresponding `role` attribute issued by their organization's CA:
+
+```bash
+cd $HOME/fabric-samples/test-network
+chmod +x gen_identities.sh
+./gen_identities.sh
 ```
-**4. Decentralized Storage (IPFS) Setup**
 
-Deploy the private IPFS node to store supporting documents off-chain.
+### Step 7 — Deploy the chaincode
 
+The smart contract must be packaged, installed on all four peers, approved by a majority, and committed to the channel. The Fabric `deployCC` helper automates this when the chaincode source is placed correctly:
+
+```bash
+cd $HOME/fabric-samples/test-network
+./network.sh deployCC -ccn dtic_chaincode -ccp ../dtic_chaincode -ccl go -ccs 1 -ccv 1.0
 ```
-# Generate private swarm key
-echo -e "/key/swarm/psk/1.0.0/\n/base16/\n$(tr -dc 'a-f0-9' < /dev/urandom | head -c64)" > swarm.key
 
-# Run IPFS Docker Container
-docker run -d   --name ipfs_node   -p 4001:4001   -p 5001:5001   -p 8080:8080   -v $(pwd)/swarm.key:/data/ipfs/swarm.key   --entrypoint /bin/sh   ipfs/kubo:latest   -c 'ipfs init --profile=server; \
-      ipfs config --json AutoConf.Enabled false; \
-      ipfs config --json Bootstrap "[]"; \
-      ipfs config --json DNS.Resolvers "{}"; \
-      ipfs config --json Routing.DelegatedRouters "[]"; \
-      ipfs config --json Ipns.DelegatedPublishers "[]"; \
+The deployment uses the `MAJORITY` endorsement policy by default.
+
+### Step 8 — Start the IPFS node
+
+Supporting documents are uploaded to a private IPFS node that runs alongside the Fabric network. The swarm key inside `test-network/` isolates this node from the public IPFS network:
+
+```bash
+docker run -d \
+  --name ipfs_node \
+  -p 4001:4001 -p 5001:5001 -p 8080:8080 \
+  -v $HOME/fabric-samples/test-network/swarm.key:/data/ipfs/swarm.key \
+  --entrypoint /bin/sh \
+  ipfs/kubo:latest \
+  -c 'ipfs init --profile=server && \
+      ipfs config --json Bootstrap "[]" && \
+      ipfs config --json Addresses.API "\"/ip4/0.0.0.0/tcp/5001\"" && \
+      ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" && \
       ipfs daemon'
 ```
->  **Detailed instructions:** See the IPFS section in [`Phase_3-Run_test-network.md`](./Guides/Phase_3-Run_test-network.md) and  [`set_up_the_network.md`](./Guides/set_up_the_network.md)
 
-### Phase 4: Performance benchmarking (Hyperledger Caliper)
-To measure the transaction throughput and latency under stress:
+Wait approximately 10 seconds for the daemon to initialize, then verify it is reachable:
 
-1. **Install dependencies:** Ensure Node.js and npm are installed, then install the Caliper CLI (`@hyperledger/caliper-cli@0.5.0`) and bind it to Fabric.
-2. Set up the `caliper_metrics` directory.
-3. Configure `workload.js` to simulate random citizen identity registrations matching the exact arguments of the Smart Contract.
-4. Define the stress scenarios in `benchconfig.yaml` (from 10 TPS up to 200 TPS).
-5. Run [`generate_network.sh`](./caliper_metrics/) to dynamically fetch the `oficinista_rc` ABAC private keys and certificates and inject them into Caliper's `network.yaml`.
-6. Execute the Caliper benchmark to generate the performance reports.
-> **Detailed instructions:** See [`Phase_4-metrics.md`](./Guides/Phase_4-metrics.md) and [`How_to_use_scripts_metrics_caliper.md`](./Guides/How_to_use_scripts_metrics_caliper.md) guide
-
----
-
-## `test-network` Directory Structure
-
-The `test-network` directory serves as the core for deploying the project's blockchain infrastructure. Its primary purpose is to provide an automated, local environment, based on Docker containers, to simulate the consortium. It is divided into components: The `compose` folder stores the YAML files that define and launch the network nodes (peers, orderers, and CouchDB databases). The `configtx` directory contains the configuration rules for generating the genesis block and establishing channel policies. Identity management is handled by the `organizations` directory, which safeguards the cryptographic material (certificates and keys) generated by the Certification Authorities to authenticate the Civil Registry and the National Electoral Council (CNE). Automation is managed through `scripts` and `scripts_setup`, which execute network startup, channel creation, and smart contract packaging. Finally, the `addorgcontraloria` directory includes the files necessary to scale the system, allowing the integration of a third entity into the blockchain in real time without interrupting operations.
-
-```text
-test-network/
-├── addorgcontraloria/    # Scripts and configs to dynamically add Org3 (Contraloría) to the channel
-├── compose/              # Docker compose YAML files for base nodes (CouchDB, CAs, Peers, Orderer)
-├── configtx/             # Configuration for the genesis block and channel creation
-├── organizations/        # Cryptographic materials (MSP, TLS) generated by Fabric CA
-├── scripts/              # Core Fabric scripts to manage the network lifecycle
-└── scripts_setup/        # Custom automated bash scripts for Phase 1 infrastructure provisioning
+```bash
+curl -s http://localhost:5001/api/v0/id | jq .ID
 ```
+
+### Step 9 — Build and run the application
+
+The Go application connects to all four organizations through the Fabric Gateway SDK. Build and run it from its source directory:
+
+```bash
+cd $HOME/fabric-samples/app
+go mod tidy
+go run main.go
+```
+
+The interactive CLI presents an organization selector. Selecting an organization triggers a login flow that reads the available X.509 identities from the corresponding `users/` directory and connects to that organization's peer. All field input is normalized to uppercase before submission, ensuring consistent world state values regardless of how operators enter data.
+
 ---
 
-## Authors and Research
-This project is the result of research carried out at the **Department of Computer Science of the National Polytechnic School** (Quito, Ecuador):
-* **Enrique Mafla** - `enrique.mafla@epn.edu.ec` 
-* **Christian Pérez** - `christian.perez01@epn.edu.ec`
-* **Jeremmy Perugachi** - `jeremmy.perugachi@epn.edu.ec`
+## Tear down
+
+To stop all containers and clean up the generated crypto material:
+
+```bash
+cd $HOME/fabric-samples/test-network
+./network.sh down
+docker stop ipfs_node && docker rm ipfs_node
+```
+
+This removes volumes, channels, and all generated certificates. Re-running from Step 3 restores a clean environment.
+
+---
+
+## Authors
+
+Developed at the **Departamento de Ciencias de la Computación, Escuela Politécnica Nacional** (Quito, Ecuador):
+
+- **Enrique Mafla** — `enrique.mafla@epn.edu.ec`
+- **Christian Pérez** — `christian.perez01@epn.edu.ec`
+- **Jeremmy Perugachi** — `jeremmy.perugachi@epn.edu.ec`
