@@ -284,7 +284,7 @@ This removes volumes, channels, and all generated certificates. Re-running from 
 
 ## Authors
 
-Developed at the **Departamento de Ciencias de la Computación, Escuela Politécnica Nacional** (Quito, Ecuador):
+Developed at the **Department of Computer Science, National Polytechnic School** (Quito, Ecuador):
 
 - **Enrique Mafla** — `enrique.mafla@epn.edu.ec`
 - **Christian Pérez** — `christian.perez01@epn.edu.ec`
