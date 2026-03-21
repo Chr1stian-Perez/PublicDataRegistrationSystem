@@ -129,6 +129,7 @@ func runOrgInterface(orgIdx int, reader *bufio.Reader) {
 			fmt.Println("1. Register identity (Birth)")
 			fmt.Println("2. Register marriage")
 			fmt.Println("3. Register death")
+			fmt.Println("6. Run Benchmark")
 		case 2:
 			fmt.Println("1. Register academic degree")
 		case 3:
@@ -149,6 +150,15 @@ func runOrgInterface(orgIdx int, reader *bufio.Reader) {
 		}
 		if op == 0 {
 			break
+		}
+		if op == 6 {
+		fmt.Println("Starting performance benchmark...")
+		gw, conn, _ := connectToGateway(1, "operator1") 
+		defer conn.Close()
+		defer gw.Close()
+		contract := gw.GetNetwork(channelName).GetContract(chaincodeName)
+		runFullSuite(contract, 1)	
+		continue
 		}
 		if op == 9 {
 			performUpdateData(orgIdx, contract, reader)
