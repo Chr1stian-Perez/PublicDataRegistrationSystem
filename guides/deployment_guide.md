@@ -143,7 +143,7 @@ The CLI prompts for an organization (1–4), a user identity, and then presents 
 | `peer0.orgregistrocivil` | 7051 |
 | `peer0.orgregistropolicial` | 9051 |
 | `peer0.orgregistropropiedad` | 11051 |
-| `peer0.orgregistroacademico` | 13051 |
+| `peer0.orgregistroacademico` | 12051 |
 | Orderer | 7050 |
 | CA orgregistrocivil | 7054 |
 | CA orgregistropolicial | 8054 |
