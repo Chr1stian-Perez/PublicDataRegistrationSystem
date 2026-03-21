@@ -19,6 +19,7 @@ PublicDataRegistrationSystem/
 ├── chaincode/        ← Smart contract (contract.go, models.go, utils.go)
 ├── test-network/     ← Full network infrastructure (see below)
 ├── guides/           ← Step-by-step deployment documentation
+├── ipfs_performance_test/ ← Files used for IPFS benchmarking
 ├── README.md
 └── LICENSE
 ```
