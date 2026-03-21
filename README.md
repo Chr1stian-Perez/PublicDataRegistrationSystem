@@ -183,7 +183,7 @@ The Go application connects to all four organizations through the Fabric Gateway
 ```bash
 cd $HOME/fabric-samples/app
 go mod tidy
-go run main.go
+go run .
 ```
 
 The interactive CLI presents an organization selector. Selecting an organization triggers a login flow that reads the available X.509 identities from the corresponding `users/` directory and connects to that organization's peer. All field input is normalized to uppercase before submission, ensuring consistent world state values regardless of how operators enter data.
