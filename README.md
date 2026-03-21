@@ -143,11 +143,79 @@ chmod +x gen_identities.sh
 
 ### Step 7 — Deploy the chaincode
 
-The smart contract must be packaged, installed on all four peers, approved by a majority, and committed to the channel. The Fabric `deployCC` helper automates this when the chaincode source is placed correctly:
+The smart contract must be packaged, installed on all four peers, approved by a majority, and committed to the channel.
+
+To do this, within the app folder, we run the following commands:
+
+1. First, we load the variables:
+   
+```bash
+export PATH=${PWD}/../bin:$PATH
+export FABRIC_CFG_PATH=$PWD/../config/
+export ORDERER_CA=${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pe
+```
+
+2. We create the .tar.gz file:
+```bash
+peer lifecycle chaincode package dtic.tar.gz --path . --lang golang --label dtic_1.0
+```
+
+The following is from the test-network folder:
+
+1. Prepare the Environment
+```bash
+export PATH=${PWD}/../bin:$PATH
+export FABRIC_CFG_PATH=$PWD/../config/
+export ORDERER_CA=${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pe
+```
+2. Install the chaincode in each institution:
 
 ```bash
-cd $HOME/fabric-samples/test-network
-./network.sh deployCC -ccn dtic_chaincode -ccp ../dtic_chaincode -ccl go -ccs 1 -ccv 1.0
+for org in Orgregistrocivil Orgregistropolicial Orgregistropropiedad Orgregistroacademico; do
+    export $(./setOrgEnv.sh $org | xargs)
+    peer lifecycle chaincode install ../dtic_chaincode/dtic.tar.gz
+done
+```
+To do this, we use the setOrgEnv.sh script to load the variables for each organization.
+
+3. Next, we extract the package_id from the chaincode.
+```bash
+peer lifecycle chaincode queryinstalled
+```
+And load that into a variable:
+```bash
+export PACKAGE_ID=<Insert the ID from the previous command>
+```
+4. Next, we approve it for the four institutions. For this, we use the same setOrgEnv.sh script.
+
+```bash
+for org in Orgregistrocivil Orgregistropolicial Orgregistropropiedad Orgregistroacademico; do
+    export $(./setOrgEnv.sh $org | xargs)
+    peer lifecycle chaincode approveformyorg -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "$ORDERER_CA" --channelID mychannel --name dtic --version 1.0 --package-id $PACKAGE_ID --sequence 1
+done
+```
+
+5. Now we load the certificate variables of each organization and the orderer:
+
+```bash
+export TEST_NETWORK_HOME=$PWD
+export PEER0_ORG1_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistrocivil.example.com/tlsca/tlsca.orgregistrocivil.example.com-cert.pem
+export PEER0_ORG2_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropolicial.example.com/tlsca/tlsca.orgregistropolicial.example.com-cert.pem
+export PEER0_ORG3_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistropropiedad.example.com/tlsca/tlsca.orgregistropropiedad.example.com-cert.pem
+export PEER0_ORG4_CA=${TEST_NETWORK_HOME}/organizations/peerOrganizations/orgregistroacademico.example.com/tlsca/tlsca.orgregistroacademico.example.com-cert.pem
+export ORDERER_CA=${TEST_NETWORK_HOME}/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+```
+6. Finally we do the commit:
+```bash
+peer lifecycle chaincode commit -o localhost:7050 \
+--ordererTLSHostnameOverride orderer.example.com \
+--tls --cafile "$ORDERER_CA" \
+--channelID mychannel --name dtic --version 1.0 --sequence 1 \
+--peerAddresses localhost:7051 --tlsRootCertFiles "$PEER0_ORG1_CA" \
+--peerAddresses localhost:9051 --tlsRootCertFiles "$PEER0_ORG2_CA" \
+--peerAddresses localhost:11051 --tlsRootCertFiles "$PEER0_ORG3_CA" \
+--peerAddresses localhost:12051 --tlsRootCertFiles "$PEER0_ORG4_CA"
+
 ```
 
 The deployment uses the `MAJORITY` endorsement policy by default.
