@@ -1,0 +1,1500 @@
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2470167133
+First Names                         : VERONICA VALERIA
+Last Names                          : SANCHEZ LOPEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2004-08-04
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 0456035430
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1268139302
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/ISLA TRINITARIA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0614183044
+First Names                         : DANIELA MARIA
+Last Names                          : CASTRO GOMEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1999-11-11
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 1459736911
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1105789848
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0212116828
+First Names                         : DIANA ROSA
+Last Names                          : VALLE ORTIZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1969-10-25
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 2385336931
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2487627061
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2249321838
+First Names                         : CHRISTIAN ALEJANDRO
+Last Names                          : TORRES CHOW
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2003-05-31
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 0409723023
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1642122348
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1958214116
+First Names                         : MATEO DIEGO
+Last Names                          : CASTRO RAMIREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1963-06-12
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 0768556754
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0547154799
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0328595371
+First Names                         : CARLOS MIGUEL
+Last Names                          : MORENO CHAVEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1957-09-27
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 1955864773
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0984513758
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : LOJA/LOJA/EL VALLE
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0346489497
+First Names                         : FERNANDO XAVIER
+Last Names                          : VERA ZAMBRANO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1955-11-24
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 1678082306
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2383519328
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0665327931
+First Names                         : LUIS PEDRO
+Last Names                          : RAMIREZ MORENO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1973-02-25
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 1586932909
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2322288301
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1293392947
+First Names                         : ANDRES DIEGO
+Last Names                          : GOMEZ PAMBABAY
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1979-06-01
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 2043696344
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2052838285
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1494610931
+First Names                         : CAMILA LUCIA
+Last Names                          : MENDOZA VALLE
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1987-06-30
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 0342246108
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2402461997
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1056645727
+First Names                         : LUIS CARLOS
+Last Names                          : MORENO PEREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1986-03-12
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 1550283608
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0109499687
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0346678627
+First Names                         : DANIEL FERNANDO
+Last Names                          : VERA MENDOZA
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1951-11-28
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 1758603661
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0674743171
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1420836531
+First Names                         : PABLO FERNANDO
+Last Names                          : VERA DIAZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2001-01-20
+Birth Place (State/County/Parish)   : TUNGURAHUA/AMBATO/FICOA
+Father National ID  (ENTER=N/A)     : 2314821477
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0707652914
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1977198365
+First Names                         : PABLO LUIS
+Last Names                          : CASTRO RAMIREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1999-10-23
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 0561824629
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0926068686
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/BASTION POPULAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0762360659
+First Names                         : ALEJANDRO FERNANDO
+Last Names                          : MENDOZA RODRIGUEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1958-12-25
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0251143644
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0822349635
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0339180545
+First Names                         : PATRICIA JULIA
+Last Names                          : CASTRO MENDOZA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2005-01-14
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/BASTION POPULAR
+Father National ID  (ENTER=N/A)     : 1627718118
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2223814187
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/ENTRADA DE LA 8
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1767319498
+First Names                         : CHRISTIAN DANIEL
+Last Names                          : SALAZAR RUIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1995-01-04
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0547030052
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2227616896
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0749891166
+First Names                         : MIGUEL JOSE
+Last Names                          : GARCIA CASTRO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2004-08-18
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 0856925863
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2223622742
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0310525424
+First Names                         : SOFIA ROSA
+Last Names                          : MORENO RODRIGUEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1960-03-03
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 1208787120
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1253750123
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : TUNGURAHUA/AMBATO/FICOA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0200532652
+First Names                         : CARMEN ANA
+Last Names                          : MENDOZA ZAMBRANO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2001-11-14
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 1602939932
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0109680778
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0813287987
+First Names                         : PAULA ANA
+Last Names                          : MENDOZA MORENO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1974-07-07
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 1341632688
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1214874559
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1673006494
+First Names                         : VERONICA LUCIA
+Last Names                          : RUIZ ORTIZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2000-01-11
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 2415842419
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1960449209
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0556379667
+First Names                         : MARTA LUCIA
+Last Names                          : ALMEIDA PAMBABAY
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1990-09-26
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 1588759605
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0467960902
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/SAMANES
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0225891999
+First Names                         : ROSA PATRICIA
+Last Names                          : RAMIREZ SUAREZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1965-01-07
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 2401339195
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0115085176
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/GUASMO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0417397048
+First Names                         : MIGUEL VICTOR
+Last Names                          : RODRIGUEZ PAMBAGAY
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1969-01-17
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 0375039110
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2024465941
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0357258975
+First Names                         : JUAN FRICXON
+Last Names                          : DIAZ CHOW
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1981-09-22
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 2387413159
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0110867443
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1929444050
+First Names                         : MARCO ALEJANDRO
+Last Names                          : SANCHEZ HERNANDEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1971-01-19
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 1482219271
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0334961995
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2185914603
+First Names                         : LUIS CARLOS
+Last Names                          : RAMIREZ DIAZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1997-01-26
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0847567391
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0374435973
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : TUNGURAHUA/AMBATO/FICOA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0371773157
+First Names                         : VERONICA CAMILA
+Last Names                          : CHOW CHAVEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1970-07-31
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 0543577910
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1264825704
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0345146374
+First Names                         : PABLO MIGUEL
+Last Names                          : PEREZ SALAZAR
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1990-11-25
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 0969590941
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0910985425
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/GUASMO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1703498657
+First Names                         : PATRICIA DIANA
+Last Names                          : CHAVEZ GARCIA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1967-03-08
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 0417474837
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1431168413
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1847236439
+First Names                         : ROSA DIANA
+Last Names                          : CASTRO DIAZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1967-03-01
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 1730515901
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1055267182
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1697499362
+First Names                         : JOSE FERNANDO
+Last Names                          : MENDOZA MORENO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1995-10-25
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 0450037852
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2158712609
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1261584569
+First Names                         : DANIEL JORGE
+Last Names                          : ZAMBRANO FLORES
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1998-12-13
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 1237785243
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0921084609
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2460301295
+First Names                         : CARLOS DIEGO
+Last Names                          : TORRES ORTIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1960-06-22
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 0394784850
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1224053828
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0720645381
+First Names                         : JOSE MATEO
+Last Names                          : DIAZ VALLE
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1968-01-13
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 0322329443
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0476571227
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : TUNGURAHUA/AMBATO/FICOA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0788942756
+First Names                         : MARCO ANDRES
+Last Names                          : DELGADO CASTRO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1984-03-18
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 0306457561
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0815210073
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1313677203
+First Names                         : DIEGO VICTOR
+Last Names                          : CHOW RUIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1957-01-11
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 1622476868
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1532731392
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1862752062
+First Names                         : PABLO PEDRO
+Last Names                          : LOPEZ GARCIA
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1990-08-14
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 2264258385
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0884109930
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1975716622
+First Names                         : JUAN PEDRO
+Last Names                          : MENDOZA RUIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1959-04-19
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 2093590587
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1092560166
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0154461718
+First Names                         : JULIA SOFIA
+Last Names                          : GOMEZ VALLE
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1955-08-12
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 1310647943
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2212789268
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0384487937
+First Names                         : FERNANDO MIGUEL
+Last Names                          : SUAREZ DELGADO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1983-05-24
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0379765827
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0402416118
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1449657610
+First Names                         : JUAN ALEJANDRO
+Last Names                          : ZAMBRANO SUAREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1964-08-16
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 0695591510
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2194234171
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1326748966
+First Names                         : JUAN DANIEL
+Last Names                          : ORTIZ GARCIA
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1964-12-19
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 0590841519
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2208822127
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1559768009
+First Names                         : MIGUEL ANDRES
+Last Names                          : SALAZAR ALMEIDA
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1990-06-28
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 0824632771
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1721427850
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1057174234
+First Names                         : DIANA MARTA
+Last Names                          : MENDOZA GOMEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1977-05-28
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 0704712863
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0908952895
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/XIMENA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0253202769
+First Names                         : GABRIEL DANIEL
+Last Names                          : CHOW TORRES
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1995-10-03
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 1029180613
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1794406691
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0503375920
+First Names                         : LAURA SILVIA
+Last Names                          : SANCHEZ ORTIZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1978-06-15
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 0743065175
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0907429483
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1833696778
+First Names                         : ELENA LAURA
+Last Names                          : VALLE SUAREZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1985-02-14
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 1584863321
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1043939260
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2115841948
+First Names                         : CARMEN MARTA
+Last Names                          : VERA PEREZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1951-03-12
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0580252018
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2074255360
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0806482745
+First Names                         : VICTOR CARLOS
+Last Names                          : CHAVEZ PEREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1954-03-05
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 0140341313
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2458167234
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0921262657
+First Names                         : LAURA MARTA
+Last Names                          : SANCHEZ CHAVEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1950-10-08
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 1343286379
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0894538882
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1646155166
+First Names                         : VERONICA SILVIA
+Last Names                          : ZAMBRANO DELGADO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1963-01-08
+Birth Place (State/County/Parish)   : TUNGURAHUA/AMBATO/FICOA
+Father National ID  (ENTER=N/A)     : 0819001893
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0880566650
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0207751029
+First Names                         : PATRICIA LAURA
+Last Names                          : GOMEZ ZAMBRANO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1992-10-09
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 1440376816
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1317126801
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0973449786
+First Names                         : DANIELA PATRICIA
+Last Names                          : GARCIA CASTRO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1977-09-04
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 0884664196
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0934956285
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1197639916
+First Names                         : ROSA LUCIA
+Last Names                          : DIAZ PAMBABAY
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1977-01-05
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 1489928667
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0354878183
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1439884044
+First Names                         : XAVIER VICTOR
+Last Names                          : GOMEZ ORTIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1983-09-13
+Birth Place (State/County/Parish)   : AZUAY/CUENCA/EL BATAN
+Father National ID  (ENTER=N/A)     : 1410056834
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0624019324
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0325793131
+First Names                         : FERNANDO MATEO
+Last Names                          : VERA RAMIREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1987-04-24
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 1684457520
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0564650978
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0147413148
+First Names                         : JORGE MATEO
+Last Names                          : MENDOZA TORRES
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1964-04-16
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 2354224248
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2363324826
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0789693017
+First Names                         : LUCIA ROSA
+Last Names                          : ALMEIDA PAMBABAY
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1988-09-17
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 2138083766
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2418297920
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1455910660
+First Names                         : MARIA LUCIA
+Last Names                          : TORRES CHAVEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1994-06-26
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 0310573608
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1625750254
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0289331820
+First Names                         : JOSE DANIEL
+Last Names                          : GOMEZ LOPEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1960-02-18
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 1124314993
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1365576756
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0773948029
+First Names                         : ELENA VERONICA
+Last Names                          : RODRIGUEZ LOPEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1984-06-12
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 2364667147
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0787628119
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : LOJA/LOJA/EL VALLE
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0562220020
+First Names                         : JULIA CAMILA
+Last Names                          : PAMBABAY CASTRO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1990-07-16
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/FLORESTA
+Father National ID  (ENTER=N/A)     : 1247258821
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2311846495
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1122898919
+First Names                         : LUIS ALEJANDRO
+Last Names                          : ORTIZ RAMIREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1984-07-06
+Birth Place (State/County/Parish)   : TUNGURAHUA/AMBATO/FICOA
+Father National ID  (ENTER=N/A)     : 1143261700
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1628270055
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2249624038
+First Names                         : ROSA SILVIA
+Last Names                          : MENDOZA VALLE
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1957-08-06
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 1483387551
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1375276289
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1499463629
+First Names                         : LUCIA MARTINA
+Last Names                          : SALAZAR RUIZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1965-09-21
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 1588520365
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1358135952
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1528961725
+First Names                         : MARTINA MARIA
+Last Names                          : SALAZAR CHOW
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1970-06-19
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 2269113165
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0689259930
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1064047272
+First Names                         : LUIS DANIEL
+Last Names                          : CHOW LOPEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1956-06-03
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 1696904568
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0457280173
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0568976985
+First Names                         : LUCIA GABRIELA
+Last Names                          : SANCHEZ DELGADO
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1982-04-01
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/BICENTENARIO
+Father National ID  (ENTER=N/A)     : 0538526971
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1194048351
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0164607040
+First Names                         : FRICXON XAVIER
+Last Names                          : VERA CHOW
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1970-09-24
+Birth Place (State/County/Parish)   : TUNGURAHUA/AMBATO/FICOA
+Father National ID  (ENTER=N/A)     : 2407692260
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2089543958
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1358511877
+First Names                         : VALERIA ROSA
+Last Names                          : CASTRO DIAZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1977-09-07
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 2242945640
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2334311435
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1843414611
+First Names                         : MATEO MIGUEL
+Last Names                          : SUAREZ SANCHEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1977-03-31
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 1835502464
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1089532413
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2093123674
+First Names                         : FRICXON JOSE
+Last Names                          : TORRES SUAREZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1952-10-31
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 0420534303
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1327411663
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0349169234
+First Names                         : JUAN CHRISTIAN
+Last Names                          : RODRIGUEZ SANCHEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1965-10-13
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 1653111122
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0755052106
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : LOJA/LOJA/EL VALLE
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1419558849
+First Names                         : MARIA PATRICIA
+Last Names                          : RAMIREZ RODRIGUEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2002-05-03
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 0505287844
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1895821080
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : LOJA/LOJA/EL VALLE
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0144703841
+First Names                         : SOFIA LAURA
+Last Names                          : VERA ORTIZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2005-12-21
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 0838943168
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1652809057
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0992132756
+First Names                         : MARCO PABLO
+Last Names                          : RODRIGUEZ FLORES
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2005-04-10
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 1054489613
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2381701555
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1116350643
+First Names                         : ANDRES JORGE
+Last Names                          : CHOW LOPEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2000-06-24
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0242195661
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0639166865
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/XIMENA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0790444344
+First Names                         : ANA VERONICA
+Last Names                          : LOPEZ VERA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1982-07-27
+Birth Place (State/County/Parish)   : LOJA/LOJA/EL VALLE
+Father National ID  (ENTER=N/A)     : 0245792341
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1832881761
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : LOJA/LOJA/EL VALLE
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1662948630
+First Names                         : JULIA DANIELA
+Last Names                          : LOPEZ CHAVEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1961-08-18
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 0334437510
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2178565386
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1637523922
+First Names                         : MARIA MARTINA
+Last Names                          : ALMEIDA SANCHEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1993-01-15
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 2109117179
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0181367863
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 2482636733
+First Names                         : VERONICA CAMILA
+Last Names                          : TORRES RODRIGUEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1999-03-05
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 1077063886
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0351893716
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1335975603
+First Names                         : PATRICIA SOFIA
+Last Names                          : FLORES VERA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1999-10-16
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 2436513775
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2131500442
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1671355804
+First Names                         : MATEO JUAN
+Last Names                          : VALLE DELGADO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1957-03-26
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 1427175480
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0936164989
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0620133584
+First Names                         : GABRIEL FRICXON
+Last Names                          : RAMIREZ RUIZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1998-05-26
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 0795589921
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1640455979
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1103764676
+First Names                         : MATEO XAVIER
+Last Names                          : TORRES CHOW
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1994-09-11
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 0400724910
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1244575982
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0204475198
+First Names                         : MATEO JUAN
+Last Names                          : ZAMBRANO SANCHEZ
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1981-03-15
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/TARQUI
+Father National ID  (ENTER=N/A)     : 0140937886
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0338336115
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0458717857
+First Names                         : JOSE ANDRES
+Last Names                          : CASTRO DELGADO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1957-11-19
+Birth Place (State/County/Parish)   : TUNGURAHUA/AMBATO/FICOA
+Father National ID  (ENTER=N/A)     : 0595427743
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1219205113
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0569819444
+First Names                         : MARCO DIEGO
+Last Names                          : DIAZ VERA
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2003-07-01
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 2207588383
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0182163106
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : COTOPAXI/LATACUNGA/EL CARMEN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1097800508
+First Names                         : MARTINA ANA
+Last Names                          : MORENO SALAZAR
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1967-11-08
+Birth Place (State/County/Parish)   : PICHINCHA/QUITO/CALDERON
+Father National ID  (ENTER=N/A)     : 0423378206
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0957739383
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1096171955
+First Names                         : JULIA VERONICA
+Last Names                          : MORENO GARCIA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1976-03-01
+Birth Place (State/County/Parish)   : GUAYAS/GUAYAQUIL/XIMENA
+Father National ID  (ENTER=N/A)     : 0989403240
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0812119615
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : EL ORO/MACHALA/PUERTO BOLIVAR
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1931284499
+First Names                         : MARTA JULIA
+Last Names                          : LOPEZ PAMBABAY
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1991-05-23
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 1015268181
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2263730252
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0669617349
+First Names                         : LUCIA GABRIELA
+Last Names                          : DELGADO PEREZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1965-03-05
+Birth Place (State/County/Parish)   : EL ORO/MACHALA/PUERTO BOLIVAR
+Father National ID  (ENTER=N/A)     : 1307264506
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0332509417
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : AZUAY/CUENCA/EL BATAN
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0369611410
+First Names                         : JORGE GABRIEL
+Last Names                          : MENDOZA MORENO
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1958-02-15
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 0355481588
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1735603705
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/BICENTENARIO
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1468061051
+First Names                         : JULIA LAURA
+Last Names                          : HERNANDEZ SUAREZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 2001-07-17
+Birth Place (State/County/Parish)   : IMBABURA/IBARRA/CARANQUI
+Father National ID  (ENTER=N/A)     : 0324419609
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0173474606
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : MANABI/MANTA/TARQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1316786209
+First Names                         : CAMILA LAURA
+Last Names                          : PEREZ CHAVEZ
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1961-02-04
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 2269545787
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 1235356452
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : GUAYAS/GUAYAQUIL/XIMENA
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0261975148
+First Names                         : GABRIELA SOFIA
+Last Names                          : RUIZ TORRES
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1984-07-07
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 1520494098
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0854130340
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/CALDERON
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 1695639677
+First Names                         : ELENA DIANA
+Last Names                          : SALAZAR ALMEIDA
+Sex [MALE/FEMALE]                   : FEMALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1950-11-06
+Birth Place (State/County/Parish)   : MANABI/MANTA/TARQUI
+Father National ID  (ENTER=N/A)     : 1311394722
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 0788704575
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : IMBABURA/IBARRA/CARANQUI
+--------------------------------------------------------------------------------
+
+[BIRTH REGISTRATION - CIVIL REGISTRY]
+National ID                         : 0198484311
+First Names                         : CARLOS MATEO
+Last Names                          : TORRES PAMBABAY
+Sex [MALE/FEMALE]                   : MALE
+Nationality                         : ECUADORIAN
+Birth Date (YYYY-MM-DD)             : 1983-06-29
+Birth Place (State/County/Parish)   : COTOPAXI/LATACUNGA/EL CARMEN
+Father National ID  (ENTER=N/A)     : 2497028087
+Father Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Mother National ID  (ENTER=N/A)     : 2405009010
+Mother Nationality  (ENTER=ECUADORIAN): ECUADORIAN
+Home Address (State/County/Parish)  : PICHINCHA/QUITO/FLORESTA
+--------------------------------------------------------------------------------
+
