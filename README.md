@@ -265,8 +265,18 @@ To stop all containers and clean up the generated crypto material:
 ```bash
 cd $HOME/fabric-samples/test-network
 ./network.sh down
-docker stop ipfs_node && docker rm ipfs_node
+docker volume rm $(docker volume ls -q)
+# Delete organization folders and temporary JSON files
+sudo rm -rf organizations/peerOrganizations/org*
+sudo rm -rf organizations/fabric-ca/org*
+sudo rm -rf configtx_*/
+sudo rm -rf temp_*/
+sudo rm -rf compose/compose-ca-org*
+sudo rm -rf compose/compose-peer-org*
 ```
+
+
+
 
 This removes volumes, channels, and all generated certificates. Re-running from Step 3 restores a clean environment.
 
