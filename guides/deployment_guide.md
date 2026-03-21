@@ -129,7 +129,7 @@ The Go application reads certificate paths relative to `../test-network/organiza
 
 ```bash
 cd $HOME/fabric-samples/app
-go run main.go
+go run .
 ```
 
 The CLI prompts for an organization (1–4), a user identity, and then presents the available transactions for that institution. All text input is converted to uppercase before submission to ensure consistent world state keys. CIDs returned by the IPFS upload are displayed immediately and stored permanently on-chain.
