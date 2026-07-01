@@ -1,6 +1,0 @@
-Round,Target_TPS,Actual_TPS,Min_Lat_S,Avg_Lat_S,Max_Lat_S,Success,Fail,Rate
-Round 1 - 5 TPS (Low Load),5,4.95,0.149,1.078,2.098,100,0,100.00%
-Round 2 - 20 TPS (Medium Load),20,19.85,0.135,0.384,0.666,400,0,100.00%
-Round 3 - 50 TPS (Stress),50,49.65,0.135,0.319,0.751,1000,0,100.00%
-Round 4 - 100 TPS (Saturation),100,61.72,0.169,9.211,12.896,1999,0,100.00%
-Round 5 - 200 TPS (Saturation),200,55.81,0.745,34.916,50.895,3847,0,100.00%
